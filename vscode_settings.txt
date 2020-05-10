@@ -1,0 +1,64 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme":"Dracula",
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Define o tema dos ícones na sidebar
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Tablatura
+  "editor.tabSize": 2,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+   "editor.rulers": [
+    80,
+    120
+  ],
+
+  // Side Bar Location
+  "workbench.sideBar.location": "left",
+
+  // Signal on Select Line 
+  "editor.renderLineHighlight":"gutter",
+
+  // Settings Font Size, Family e Ligatures Code 
+  "editor.fontSize":16,
+  "editor.lineHeight":24,
+  "editor.fontFamily":"Fira Code",
+  "editor.fontLigatures":true,
+
+  // Settings Font Size, Family e Line Terminal
+  "terminal.integrated.fontSize":15,
+
+  // Sugestions 
+  "editor.parameterHints.enabled": false,
+
+  // Feedbacks Alerts   
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  // Auto Imports Update Location 
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Ignore Extensions New File 
+  "extensions.ignoreRecommendations": true,
+
+  
+  // Emmet
+  "emmet.syntaxProfiles": {"javascript": "jsx"},
+  "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+
+  // Informations File Opened 
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": true,
+
+
+  "explorer.compactFolders": false,
+  "editor.minimap.enabled": false,
+  "git.suggestSmartCommit": false,
+
+}
