@@ -24,10 +24,10 @@
   "editor.renderLineHighlight":"gutter",
 
   // Settings Font Size, Family e Ligatures Code 
-  "editor.fontSize":16,
-  "editor.lineHeight":24,
   "editor.fontFamily":"Fira Code",
   "editor.fontLigatures":true,
+  "editor.fontSize":16,
+  "editor.lineHeight":24,
 
   // Settings Font Size, Family e Line Terminal
   "terminal.integrated.fontSize":15,
@@ -51,14 +51,17 @@
   "emmet.syntaxProfiles": {"javascript": "jsx"},
   "emmet.includeLanguages": {"javascript": "javascriptreact"},
 
+ // Git Suggests
+  "git.suggestSmartCommit": false,
 
   // Informations File Opened 
   "workbench.editor.labelFormat": "short",
   "breadcrumbs.enabled": true,
 
-
+ // Compact Folders 
   "explorer.compactFolders": false,
+
+ // Mini Map
   "editor.minimap.enabled": false,
-  "git.suggestSmartCommit": false,
 
 }
